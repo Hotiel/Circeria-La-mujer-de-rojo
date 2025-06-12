@@ -1,0 +1,136 @@
+/* ======================== Selectores por elementos ======================== */
+.veil {
+    position: fixed;
+    top:0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+body { 
+    background-image: url(Imagenes/calle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000000
+}
+/* ======================== Selectores por clases ======================== */ 
+
+.box-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+.box {
+    background-color: #ebe8c6e0;
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 108, 129);
+    width: 50%;
+    height: 90%;;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    white-space: pre-line
+}
+.box-description {
+    background-color: #ebe8c6e0;
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 108, 129);
+    width: 75%;
+    height: 90%;;
+    margin: 10px;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+    text-justify: none;
+    white-space: pre-line;
+}
+.options {
+    display:flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 30%;
+    height: 100%;
+    color: #ebe8c6;
+    text-shadow: 0 0 3px rgba(24, 108, 129, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2rem;
+    border-left: 2px solid rgb(24, 108, 129);
+    margin: 10px;
+    padding: 0;
+    text-decoration: none;
+}
+.options a {
+    color: #ebe8c6;
+    text-decoration: none;
+}
+.options a:hover {
+    color: rgb(24, 108, 129); 
+    text-shadow: 0 0 5px rgba(24, 108, 129, 0.5);
+    cursor: pointer;
+}
+.box-piedepagina {
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px auto;
+    border-top: 2px solid rgb(24, 108, 129);
+    white-space: pre-line
+}
+.titulo {
+color: #ebe8c6;
+text-align: center;
+padding-top: 1rem;
+}
+.texto {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    white-space: pre-line
+}
+.texto-claro {
+    color: #ebe8c6;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    white-space: pre-line
+}
+.resaltado {
+color: #2ac;
+}
+.resaltado a {
+    color: #2ac;
+    text-decoration: none;
+}
+.centrado {
+    text-align: center;
+}
+.resaltado a:hover {
+    color: rgb(24, 108, 129); 
+    text-shadow: 0 0 5px rgba(24, 108, 129, 0.5);
+    cursor: pointer;
+    text-decoration: none;
+}
+.entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.no-s {
+    text-decoration: none;
+}
+/* ======================== Selectores por id ======================== */
